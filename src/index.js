@@ -1,5 +1,5 @@
 import { last } from "lodash";
-import drawData  from "./utils";  //дефолтные значения импортируются без скобок 
+import {drawData, sum}  from "./utils";  //дефолтные значения импортируются без скобок 
 
 const apiUrl = 'http://localhost:3000';
 
