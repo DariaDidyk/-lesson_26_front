@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { fierst, last } from "lodash";
+=======
+import { last } from "lodash";
+>>>>>>> 5473b35b81efb14ff88837938d9d6a1ca79de274
 import {drawData, sum}  from "./utils";  //дефолтные значения импортируются без скобок 
 
 const apiUrl = 'http://localhost:3000';
@@ -31,6 +35,7 @@ deleteBtn.addEventListener('click', () => {
     .then((data) => drawData(data, wrapper));
 });
 
+<<<<<<< HEAD
 // console.log(last([1,2,3]));
 
 const later = (value, cb, time = 1000) => setTimeout(() => cb(value), time);
@@ -103,3 +108,6 @@ funnier
 
 
 
+=======
+console.log(last([1,2,3]));
+>>>>>>> 5473b35b81efb14ff88837938d9d6a1ca79de274
